@@ -118,13 +118,6 @@ export function registerCommands(bot) {
   });
 
   // /cancel command
-  bot.command("cancel", (ctx) => {
-    const maxId = ctx.update?.message?.sender?.user_id;
-    if (!maxId) return ctx.reply(MESSAGES.SESSION_ERROR);
-
-    resetUserSession(maxId);
-    return ctx.reply(MESSAGES.CANCELLED);
-  });
 
   // /help command
   bot.command("help", async (ctx) => {
