@@ -3,8 +3,7 @@ node_modules/
 package-lock.json
 
 # База данных
-*.sqlite
-*.sqlite3
+
 data/
 
 # Логи
