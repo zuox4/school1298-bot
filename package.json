@@ -1,0 +1,19 @@
+{
+  "name": "maxbot1298",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js",
+    "db:init": "node src/config/database.js"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "latest",
+    "dotenv": "^17.3.1",
+    "nodemailer": "^6.10.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
